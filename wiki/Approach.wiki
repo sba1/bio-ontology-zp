@@ -1,0 +1,22 @@
+#summary Description of the Approach.
+
+= Introduction =
+
+The goal is to create an ontology in a way that matches the manual creation of the ontology.
+
+= Details =
+
+Two-level approach
+
+ * Building up the axioms
+  * EQ approach
+  * Preserve IDs by loading previously generated axioms
+  
+ * Inference:
+  * Build up the is-a hierarchy
+  * Identify more equivalent classes
+  * Propagate obsolete ids
+  * Propagate consider ids
+  * Propagate other relations
+
+= Discussion =
